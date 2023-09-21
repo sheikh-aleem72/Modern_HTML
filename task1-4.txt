@@ -1,0 +1,54 @@
+		Modern HTML Assignment
+Q1. List out the features of HTML5
+Ans: 
+Semantic Element: HTML5 introduced a set of semantic elements like <header>,<nav>,<article>,<section>,<footer>, and <aside> to provide better structure and meaning to web page content.
+Audio and Video: HTML5 includes native support for embedding audio and video content using the <audio> and <video> elements, eliminating the need for the third-party plugins like Flash.
+Canvas: The <canvas> element allows for dynamic rendering of graphics and animations directly within the browser using JavaScript, making it useful for interactive games and data visualisations.
+SVG Support: HTML5 provides better support for Scalable Vector Graphics (SVG), enabling the inclusion of vector-based graphics within web pages.
+Improved Forms: HTML5 introduced new input types (e.g., placeholder, required) to create more user-friendly and functional forms. It also introduced the <datalist> element for providing autocomplete suggestions.
+
+
+Q2. What are HTML Entities? List out 5 commonly used HTML entities.
+Ans: HTML entities are special codes or sequences of characters used in HTML to represent reserved characters, symbols, and characters that have special meanings in HTML or might not be displayed correctly in the browser. THere entities are useful for displaying characters that would otherwise be interpreted as HTML tags or code.
+
+Five commonly used HTML Entities are:
+&lt; - Represents the less-than sign (“<”). This entity is used to display the less-than symbol without starting an HTML tag.
+&gt; - Represents the greater-than sign (“>”). This entity is used to display the greater-than symbol without ending an HTML tag.
+&amp; - Represents the ampersand character (“&”). This entity is used to display the ampersand without starting an entity reference.
+&quot; - Represents a double quotation mark (“). This entity is used to display double quotation marks within attribute values enclosed in double quotes.
+&apos; - Represents a single quotation mark (‘). While HTML5 introduces native support for single quotation  within attribute values, this entity can still be used for compatibility with older HTML specifications.
+
+
+
+Q3. Define accessibility in the context of web development, Discuss why it’s essential to create accessible websites and how it benefits different user groups?
+Ans:
+Accessibility in web development refers to the practice of designing and developing websites and web applications in a way that ensures they can be accessed, understood, and used by people with disabilities or limitations. It involves creating digital content that accommodates a wide range of abilities, including those with visual, auditory, motor, cognitive, and other impairments. Accessibility aims to provide an inclusive online experience for all users, regardless of their physical or cognitive capabilities.
+
+Here are some key aspects of web accessibility and why it is essential:
+
+1. Inclusivity and Equal Access: Web accessibility is essential to ensure that all individuals, including those with disabilities, have equal access to information and services on the internet. It promotes social inclusion by removing barriers to participation in the digital world.
+
+2. Legal and Regulatory Compliance: Many countries have laws and regulations that require websites and web applications to be accessible. For example, in the United States, the Americans with Disabilities Act (ADA) and Section 508 of the Rehabilitation Act mandate web accessibility for federal agencies and organisations receiving federal funding.
+3. Ethical Responsibility: Creating accessible websites is an ethical responsibility. It reflects a commitment to treating all users with respect and dignity, regardless of their abilities or disabilities.
+4. Expanding Audience: By making your website accessible, you expand your potential audience. People with disabilities, who make up a significant portion of the population, will be able to engage with your content or services. This can lead to increased traffic and potential customers.
+5. Improved SEO: Some accessibility practices, such as using proper semantic HTML and providing descriptive alternative text for images, can improve search engine optimization (SEO). This benefits all users, not just those with disabilities.
+
+
+Q4. List any 3 ways which help us in improving the accessibility of HTML.
+Ans: 
+Semantic HTML Elements: Employ semantic HTML elements like <header>, <nav>, <main>, <article>, and others to give your content structure and meaning. For instance, use <nav> for navigation menus and <article> for self-contained content like blog posts. Proper use of these elements helps assistive technologies and users with disabilities understand and navigate your content more easily.
+
+Descriptive Alt Text for Images: Ensure that every image on your website has descriptive alternative text (alt text). Alt text provides a textual description of the image for users who can't see it, such as those using screen readers. Aim to convey the content and purpose of the image. For example, if you have an image of a cat playing with a ball, the alt text could be something like alt="A cat playing with a ball".
+
+Keyboard Accessibility: Keyboard accessibility is vital for users with motor impairments or those who rely on keyboards for navigation. To enhance keyboard accessibility:
+
+Make sure all interactive elements (links, buttons, form fields) are easily navigable and operable using the keyboard. Test your website's functionality without using a mouse to ensure it's entirely keyboard-friendly.
+
+Use the tabindex attribute to control the tab order and provide a logical navigation sequence for keyboard users.
+
+Implement keyboard shortcuts and focus indicators to give visual feedback when an element receives focus. This helps users understand where they are on the page.
+
+
+Q5. Create a web page that highlights the features of HTML5. Use appropriate semantic tags to structure the content and showcase at least three key features of HTML5 with explanations.
+
+Q6. Create a simple web page which has a table. The table must have 2 columns HTML and HTML5. The table should include a minimum of three rows describing the differences between HTML and HTML5.
